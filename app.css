@@ -33,3 +33,7 @@ body {
   #resetButton {
     background-color: darkblue;
   }
+
+  .hidden {
+    visibility: hidden;
+  }

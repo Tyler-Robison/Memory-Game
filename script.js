@@ -3,6 +3,7 @@ const buttonContainer = document.querySelector('#buttonContainer');
 const triesCounter = document.querySelector('#triesSpan');
 const highScoreSpan = document.querySelector('#highScoreSpan');
 const reminder = document.querySelector('#reminder');
+const startButton = document.querySelector('#startButton')
 triesCounter.innerText = 0;
 let cardsClicked = 0;
 let tries = 0;
@@ -159,6 +160,7 @@ buttonContainer.addEventListener('click', function (e) {
   } else if (e.target.id === 'startButton') {
     gameStarted = true;
     reminder.innerText = '';
+    startButton.classList.add('hidden');
   }
 })
 

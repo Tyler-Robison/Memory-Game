@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div>
+    <h1>Memory Game!</h1>
+    <label for="numberSelect">How many cards? (changing resets high score.)</label>
+    <select id="numberSelect">
+      <option value="10">10</option>
+      <option value="12">12</option>
+      <option value="14">14</option>
+      <option value="16">16</option>
+      <option value="18">18</option>
+      <option value="20" selected>20</option>
+    </select>
+    <p>You have guessed <span id="triesSpan">0</span> time/s. <span id="highScoreSpan"></span></p>
+  </div>
+
+  <div id="game">
+  </div>
+
+  <div>
+    <form action="" id="buttonContainer">
+      <button id="startButton" class="button">Start Game</button>
+      <button id="resetButton" class="button">Reset Game</button>
+    </form>
+  </div>
+
+  <p id="reminder"></p>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

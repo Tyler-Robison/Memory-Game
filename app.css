@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+  }
+  
+  #game div {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 8%;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    background-color: white;
+  }
+  
+  #game {
+    width: 100%;
+  }
+  
+  .button {
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0px 10px;
+  }
+  
+  #startButton {
+    background-color: darkgreen;
+  }
+  
+  #resetButton {
+    background-color: darkblue;
+  }
